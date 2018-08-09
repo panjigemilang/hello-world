@@ -1,7 +1,16 @@
 /*FONT GOOGLE*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
 /*GLOBAL*/
+html, body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -10,14 +19,65 @@ p {
     font-size: 14px;
 }
 
+judul h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #8a62ed
+}
+
+pembatas {
+    display: block;
+    background-color: transparent;
+    height: 50px;
+}
+
+header gambar {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background: url(/img/Japan%20shop.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+content .main-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10vh;
+    color: #bec9f8;
+    text-shadow: 2px 2px #006a84;
+}
+
+content a {
+    font-size: 24px;
+    padding: 0vh 3vh;
+    border: 1px #28c0eb solid;
+    border-radius: 100px;
+}
+
+content a:hover {
+    text-decoration: none;
+}
+
 /*NAVBAR*/
 nav {
     padding: 1em;
     box-sizing: border-box;
 }
 
-logo {
+logo a {
     float: left;
+    color: inherit;
+}
+
+logo a:hover {
+    text-decoration: none;
 }
 
 nav ul>li {
@@ -30,3 +90,54 @@ nav ul>li {
 nav ul>li.active a{
     color: black;
 }
+
+nav ul>li.active a:hover{
+    color: #0451ea;
+}
+
+/*SECTION*/
+#home {
+    background: url(/img/fahrul-azmi-578246-unsplash.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+
+#home p {
+    color: white;
+    text-shadow: 2px 2px #191e1e;      
+}
+
+#about {
+    background: url(/img/ali-hegazy-532088-unsplash.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    text-shadow: 2px 2px #191e1e;       
+}
+
+#services {
+    background: url(/img/tianshu-liu-242331-unsplash.jpg);
+    background-size: cover;
+    background-position: center;     
+    color: white;
+    text-shadow: 2px 2px #191e1e;    
+}
+
+#contact {
+    background: url(/img/tania-shevereva-581930-unsplash.jpg);
+    background-size: cover;
+    background-position: center;     
+    color: white;
+    text-shadow: 2px 2px #191e1e;    }
+
+#contact ul>li {
+    display: inline-block;
+    font-size: 5vh;
+    margin: 0px 4vh;
+}
+
+#contact icon {
+    text-align: center;
+}
+
+/*FOOTER*/
