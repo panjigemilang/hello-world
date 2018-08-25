@@ -150,7 +150,7 @@ header gambar {
     height: 100vh;
     width: 100%;
     margin: auto;
-    background: url(/img/Japan%20shop.jpg);
+    background: url(img/Japan%20shop.jpg);
     display: table;
     top: 0;
     background-size: cover;
@@ -188,7 +188,7 @@ content a:hover {
 
 nav {
     z-index: 1;
-    background-image: url(/img/background-723053_1920.jpg);
+    background-image: url(img/background-723053_1920.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100%;
@@ -293,7 +293,7 @@ main .description {
 #home {
     padding: 5vh;
     text-align: justify;
-    background: url(/img/annie-spratt-450566-unsplash.jpg);
+    background: url(img/annie-spratt-450566-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -313,7 +313,7 @@ main .description {
 
 
 #about {
-    background: url(/img/rawpixel-626041-unsplash.jpg);
+    background: url(img/rawpixel-626041-unsplash.jpg);
     background-size: cover;
     background-position: center;
     padding: 5vh;
@@ -334,7 +334,7 @@ main .description {
 }
 
 #services {
-    background: url(/img/patrick-tomasso-406137-unsplash.jpg);
+    background: url(img/patrick-tomasso-406137-unsplash.jpg);
     background-size: cover;
     background-position: bottom;
     color: white;
@@ -345,7 +345,7 @@ main .description {
 }
 
 #contact {
-    background: url(/img/tania-shevereva-581930-unsplash.jpg);
+    background: url(img/tania-shevereva-581930-unsplash.jpg);
     background-size: cover;
     background-position: center;
     color: white;
